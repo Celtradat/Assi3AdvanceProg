@@ -1,6 +1,6 @@
 package domain
 
-import "advanced.microservices/pkg/validator"
+import "assignment3/pkg/validator"
 
 type Group struct {
 	ID        int64  `json:"id"`

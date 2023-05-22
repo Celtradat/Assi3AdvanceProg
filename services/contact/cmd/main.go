@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"advanced.microservices/pkg/store/postgres"
+	"assignment3/pkg/store/postgres"
 )
 
 func main() {
-	db, err := postgres.OpenDB("localhost", "", "jobbe", "password", "jobbe")
+	db, err := postgres.OpenDB("localhost", "5432", "postgres", "password", "dbname")
 	if err != nil {
 		fmt.Printf("Error connecting to database")
 	}

@@ -1,4 +1,4 @@
-module advanced.microservices
+module assignment3
 
 go 1.19
 
